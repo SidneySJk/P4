@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -16,8 +16,8 @@ public class Match
     private bool matching = false;
     private bool[,] Matched = new bool[rows, cols];
     public List<(int r, int c)> MatchLine { get; } = new List<(int r, int c)>();
-    
 
+    // Intercambia dos fichas en el tablero
     public void SwapTiles(int r1, int c1, int r2, int c2)
     {
         char tmp = Tiles[r1][c1];
@@ -25,17 +25,21 @@ public class Match
         Tiles[r2][c2] = tmp;
     }
 
+    // Verifica si dos posiciones son adyacentes
     public static bool Adjacent(int r1, int c1, int r2, int c2)
     {
         return (Math.Abs(r1 - r2) + Math.Abs(c1 - c2) == 1);
     }
 
+    // Marca una ficha como parte de un match
     private void MarkMatch(int r, int c)
     {
         Matched[r, c] = true;
         MatchLine.Add((r, c));
 
     }
+
+    // Busca y marca todas las coincidencias en el tablero
     public bool MakeMatch()
     {
         MatchLine.Clear();
@@ -89,9 +93,35 @@ public class Match
         return matching;
     }
 
+    // Actualiza el tablero con nuevas fichas despues de un match, mueve las de arriba a abajo y genera nueva en puntos vacios
+    public void UpdateMatch()
+    {
+        for (int c = 0; c < cols; c++)
+        {
+            int reWriteRow = rows - 1;
+            for(int r = rows - 1; r >= 0; r--)
+            {
+                if (!Matched[r, c])
+                {
+                    Tiles[reWriteRow][c] = Tiles[r][c];
+                    reWriteRow--;
+                }
+            }
+            //Random rnd = new Random();
+            while (reWriteRow >= 0)
+            {
+                Tiles[reWriteRow][c] = Board.RandomTile();
+                reWriteRow--;
+            }
+        }
+        Matched = new bool[rows, cols];
+    }
+
+    // Calcula la puntuacion obtenida en el match actual
     public double Scored()
     {
-        return (Math.Pow(MatchLine.Count, 3));
+        return (Math.Pow(MatchLine.Count, 2));
     }
 
 }
+
