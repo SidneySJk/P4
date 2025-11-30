@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,22 +21,26 @@ public class Game
     public static int MatchLimit { get; } = 1;
     public int PlayerSelecting { get; set; } = 0;
 
+    // Añadir jugador al juego
     public void AddPlayer(Player player)
     {
         Players.Add(player);
     }
 
+    // Verificar si el juego tiene el número máximo de jugadores
     public static bool CompletePlayers()
     {
         return Players.Count == MAX_PLAYERS;
     }
 
+    // Iniciar el juego
     public List<List<char>> StartGame()
     {
         State = "iniciada";
         return Tiles;
     }
 
+    // Procesar el intercambio de fichas y actualizar el estado del tablero
     public static bool ProcessSwap(Player player, int r1, int c1, int r2, int c2)
     {
         if (player == null) return false;
@@ -46,8 +50,14 @@ public class Game
         {
             Match.SwapTiles(r2, c2, r1, c1); return false;
         }
+        Match.UpdateMatch();
+        while (Match.MakeMatch())
+        {
+            Match.UpdateMatch();
+        }
         player.PlayerScore += Match.Scored();
         return true;
     }
 
 }
+
