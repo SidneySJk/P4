@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +16,8 @@ public class Board
     public Tile[,] Tiles { get; } = new Tile[LENGTH, WIDTH];
 
     //Metodos
+
+    // Contructoye el tablero con fichas aleatorias
     public void BuildBoard()
     {
         Random rnd = new Random();
@@ -29,6 +31,7 @@ public class Board
         }
     }
 
+    // Devuelve la ficha en la posicion dada, o null si no existe
     public Tile GetTile(int row, int col)
     {
         if (row >= LENGTH || col >= WIDTH || row < 0 || col < 0)
@@ -39,6 +42,7 @@ public class Board
         return Tiles[row, col];
     }
 
+    // Selecciona o deselecciona una ficha para un jugador, devuelve false si no se puede seleccionar
     public bool Select(int row, int col, int playerId)
     {
         Tile tile = GetTile(row, col);
@@ -52,6 +56,7 @@ public class Board
         return tile.SelectTile(playerId);
     }
 
+    // Cambia la ficha en la posicion dada por una nueva ficha aleatoria
     public void CleanTile(int row, int col)
     {
         Tile tile = GetTile(row, col);
@@ -61,6 +66,15 @@ public class Board
         tile.ChangeTile(color);
     }
 
+    // Devuelve un color aleatorio de los disponibles
+    public char RandomTile()
+    {
+        //Tile(int row, int col, char color)
+        Random rnd = new Random();
+        return Colors[rnd.Next(Colors.Count)];
+    }
+
+    // Devuelve una representacion simple del tablero con solo los colores de las fichas
     public List<List<char>> SimpleBoard() 
     {
 
