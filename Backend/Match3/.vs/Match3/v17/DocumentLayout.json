@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\hubs\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:hubs\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\services\\createboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:services\\createboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\models\\swapdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:models\\swapdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\models\\joindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:models\\joindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\models\\gamestatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:models\\gamestatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\models\\creategamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:models\\creategamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\match3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:match3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|c:\\tec codigo\\lenguajes\\proyectos\\p4\\p4\\backend\\match3\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247DCAEE-38F0-47D9-87EF-C5693B273DC3}|Match3.csproj|solutionrelative:tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateBoards.cs",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Services\\CreateBoards.cs",
+              "RelativeDocumentMoniker": "Services\\CreateBoards.cs",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Services\\CreateBoards.cs",
+              "RelativeToolTip": "Services\\CreateBoards.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T23:32:31.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "Services\\GameService.cs",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Services\\GameService.cs",
+              "RelativeToolTip": "Services\\GameService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowBcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T23:33:25.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Board.cs",
+              "RelativeDocumentMoniker": "Board.cs",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Board.cs",
+              "RelativeToolTip": "Board.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAkwFYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T23:42:58.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Game.cs",
+              "RelativeDocumentMoniker": "Game.cs",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Game.cs",
+              "RelativeToolTip": "Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T23:49:21.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GameController.cs",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Controllers\\GameController.cs",
+              "RelativeToolTip": "Controllers\\GameController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T23:23:58.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameHub.cs",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Hubs\\GameHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\GameHub.cs",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Hubs\\GameHub.cs",
+              "RelativeToolTip": "Hubs\\GameHub.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA9wC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T01:12:41.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SwapDto.cs",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Models\\SwapDto.cs",
+              "RelativeDocumentMoniker": "Models\\SwapDto.cs",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Models\\SwapDto.cs",
+              "RelativeToolTip": "Models\\SwapDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:52:32.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JoinDto.cs",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Models\\JoinDto.cs",
+              "RelativeDocumentMoniker": "Models\\JoinDto.cs",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Models\\JoinDto.cs",
+              "RelativeToolTip": "Models\\JoinDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:52:07.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameStateDto.cs",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Models\\GameStateDto.cs",
+              "RelativeDocumentMoniker": "Models\\GameStateDto.cs",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Models\\GameStateDto.cs",
+              "RelativeToolTip": "Models\\GameStateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:52:54.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateGameDto.cs",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Models\\CreateGameDto.cs",
+              "RelativeDocumentMoniker": "Models\\CreateGameDto.cs",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Models\\CreateGameDto.cs",
+              "RelativeToolTip": "Models\\CreateGameDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T00:20:54.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T05:15:21.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T02:16:50.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Match3.csproj",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Match3.csproj",
+              "RelativeDocumentMoniker": "Match3.csproj",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Match3.csproj",
+              "RelativeToolTip": "Match3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-02T04:47:32.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Match.cs",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Match.cs",
+              "RelativeDocumentMoniker": "Match.cs",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Match.cs",
+              "RelativeToolTip": "Match.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAkwLkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T23:43:21.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Tile.cs",
+              "DocumentMoniker": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Tile.cs",
+              "RelativeDocumentMoniker": "Tile.cs",
+              "ToolTip": "C:\\TEC CODIGO\\Lenguajes\\Proyectos\\P4\\P4\\Backend\\Match3\\Tile.cs",
+              "RelativeToolTip": "Tile.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAADwvyAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T00:58:57.427Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

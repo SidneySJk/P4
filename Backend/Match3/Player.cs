@@ -8,11 +8,12 @@ namespace Match3;
 
 public class Player
 {
-    public int PlayerId { get; set; } = 0;
+    public string PlayerId { get; set; } = "P-" + Guid.NewGuid().ToString().Substring(0, 8);
     public string Nickname { get; set; } = string.Empty;
-    public double PlayerScore { get; set; } = 0;
-    public List<(int fila, int col)> Selections = new();
-    private bool _isReady = false;
+    public double PlayerScore { get; private set; } = 0;
+    public List<(int fila, int col)> Selections { get; } = new();
+    public int totalMatches = 0;
+    public bool _isReady = false;
 
     public void AddSelection(int fila, int col)
     {
@@ -23,7 +24,7 @@ public class Player
     {
         return Selections;
     }
-
+    
     public void ClearSelection()
     {
         Selections.Clear();
@@ -35,4 +36,9 @@ public class Player
     }
 
     public bool IsReady => _isReady;
+
+    public void changeReady()
+    {
+        _isReady = !_isReady;
+    }
 }

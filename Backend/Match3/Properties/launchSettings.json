@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Match3": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:54462;http://localhost:54463"
+    }
+  }
+}

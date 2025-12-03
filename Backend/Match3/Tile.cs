@@ -8,18 +8,27 @@ namespace Match3;
 
 public class Tile
 {
-    private int Row;
-    private int Col;
-    public char Color;
-    public bool IsSelected { get; set; } = false;
+    public int Row { get; private set; }
+    public int Col { get; private set; }
+    public char Color { get; private set; }
+    public bool IsSelected { get; private set; } = false;
     public int? PlayerIdSelection { get; private set; } = null;
-
+    public int GetRow() => Row;
+    public int GetCol() => Col;
+    public char GetColor() => Color;
     public Tile(int row, int col, char color)
     {
-        this.Row = row;
-        this.Col = col;
-        this.Color = color;
+        Row = row;
+        Col = col;
+        Color = color;
     }
+
+    public void SetPosition(int r, int c)
+    {
+        Row = r;
+        Col = c;
+    }
+
     public bool SelectTile(int playerId)
     {
         if (IsSelected) 
@@ -37,9 +46,17 @@ public class Tile
         PlayerIdSelection = null;
     }
 
+    
+    public void RandomizeColor(Board board)
+    {
+        Color = board.RandomTile();
+        ReleaseTile();
+    }
+
     public void ChangeTile(char newColor)
     {
         Color = newColor;
         ReleaseTile();
     }
+    
 }

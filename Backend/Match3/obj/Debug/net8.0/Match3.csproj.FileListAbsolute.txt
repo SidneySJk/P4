@@ -1,0 +1,5 @@
+C:\TEC CODIGO\Lenguajes\Proyectos\P4\P4\Backend\Match3\obj\Debug\net8.0\Match3.GeneratedMSBuildEditorConfig.editorconfig
+C:\TEC CODIGO\Lenguajes\Proyectos\P4\P4\Backend\Match3\obj\Debug\net8.0\Match3.AssemblyInfoInputs.cache
+C:\TEC CODIGO\Lenguajes\Proyectos\P4\P4\Backend\Match3\obj\Debug\net8.0\Match3.AssemblyInfo.cs
+C:\TEC CODIGO\Lenguajes\Proyectos\P4\P4\Backend\Match3\obj\Debug\net8.0\Match3.csproj.CoreCompileInputs.cache
+C:\TEC CODIGO\Lenguajes\Proyectos\P4\P4\Backend\Match3\obj\Debug\net8.0\Match3.sourcelink.json
